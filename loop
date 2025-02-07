@@ -164,10 +164,11 @@ Landing on Action triggers a random event.<br><br>
 <tr><td>Slipping on an Inkay</td><td colspan="2">Go back 1 to 3 spaces</td></tr>
 <tr><td>Abra appears</td><td colspan="2">Teleport to a random tile</td></tr>
 <tr><td>Hopping on a Flying Taxi</td><td colspan="2">Teleport to Elm's Lab</td></tr>
+<tr><td>Hiking</td><td colspan="2">Teleport to the nearest Dark-Brown tile in anticlockwise direction</td></tr>
 <tr><td>Hacking Lady Monita</td><td colspan="2">Teleport to and enter Pyrite Town Jail</td></tr>
 <tr><td>Delibird's present</td><td>Earn 0 to 500 Poke</td><td>Earn 0 to 1 key</td></tr>
 <tr><td>Drawing a card</td><td>Earn a Jellicent card</td><td>Earn a Klefki card</td></tr>
-<tr><td>Feeling generous</td><td>Donate 0 to 500 Poke to a random player</td><td>N/A</td></tr>
+<tr><td>Feeling generous</td><td>Donate 100 to 500 Poke to a random player, but only if you have enough Poke</td><td>N/A</td></tr>
 </table>
 
 <h3>Jail</h3>
