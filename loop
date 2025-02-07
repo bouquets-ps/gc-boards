@@ -106,7 +106,7 @@ Every player starts the game at tile 0 and moves anticlockwise.<br><br>
 <h3>Properties NOT UPDATED</h3>
 
 Rent and elimination chance of properties in the same set stacks together.
-<br><br>For instance, if you land on Pallet, and the player who owns it has all three properties in the Red set, you have to pay 300 Poke to them in Jellicent's, or have a 15% chance to be eliminated in Klefki's.<br><br>
+<br><br>For instance, if you land on Ultra Crater, and the player who owns it has all two properties in the Red-Orange set, you have to pay 1000 Poke to them in Jellicent's, or have a 70% chance to be eliminated in Klefki's.<br><br>
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Tile</b></td><td><b>Name</b></td><td><b>Set</b></td><td><b>Base Rent<br>(Jellicent)</b></td><td><b>Base Elimination Chance<br>(Klefki)</b></td></tr>
@@ -170,7 +170,7 @@ Landing on Action triggers a random event.<br><br>
 <tr><td>Feeling generous</td><td>Donate 0 to 500 Poke to a random player</td><td>N/A</td></tr>
 </table>
 
-<h3>Jail NOT UPDATED</h3>
+<h3>Jail</h3>
 
 Landing on Pyrite Town Jail by rolling dices does nothing.
 
