@@ -34,7 +34,7 @@ body {
 <h3>Properties</h3>
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
-<tr><td rowspan="2"><b>Tile</b></td><td rowspan="2"><b>Name</b></td><td rowspan="2"><b>Set</b></td><td colspan="2"><b>Jellicent</b></td><td colspan="2"><b>Klefki</b></td></tr>
+<tr><td rowspan="2"><b>Space</b></td><td rowspan="2"><b>Name</b></td><td rowspan="2"><b>Set</b></td><td colspan="2"><b>Jellicent</b></td><td colspan="2"><b>Klefki</b></td></tr>
 <tr><td><b>Buy Cost</b></td><td><b>Base Rent</b></td><td><b>Unlock Cost</b></td><td><b>Base Elimination Chance</b></td></tr>
 <tr><td style="background: linear-gradient(#db7070 , #b82e2e); color: black; font-weight: bold">1</td><td>Pallet</td><td rowspan="3">Red</td><td rowspan="3" colspan="2">100 Poke</td><td rowspan="24">1 Key</td><td rowspan="3">5%</td></tr>
 <tr><td style="background: linear-gradient(#db7070 , #b82e2e); color: black; font-weight: bold">2</td><td>Littleroot</td></tr>
@@ -63,10 +63,10 @@ body {
 
 </table>
 
-<h3>Special Tiles</h3>
+<h3>Special Spaces</h3>
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Tile</b></td><td><b>Name</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
+<tr><td><b>Space</b></td><td><b>Name</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
 <tr><td style="background: linear-gradient(#e6e6e6 , #d9d9d9); color: black; font-weight: bold">0</td><td>Oak's Lab</td><td>+200 Poke if passed by<br><i>Only from round 2 onwards</i></td><td>+1 Key if passed by<br><i>Only from round 2 onwards</i></td></tr>
 <tr><td style="background: linear-gradient(#999999 , #666666); color: black; font-weight: bold">9</td><td>Pyrite Town Jail</td><td colspan="2">Can be entered by triggering the Hacking Lady Monita Action event<br><i>See <a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/jail">Jail</a></i></td></tr>
 <tr><td style="background: linear-gradient(#70a6db , #2e73b8); color: black; font-weight: bold">18</td><td>Pokemon Center</td><td colspan="2">Nothing happens here</td></tr>
