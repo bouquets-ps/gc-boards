@@ -26,12 +26,16 @@ body {
 
 <h3>Starting Possesions</h3>
 
+Every player start the game with the same amount of Poke or Keys.
+
 <table align="center" border="2" style="text-align: center" cellpadding="5">
 <tr><td></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
 <tr><td><b>Starting Possessions</b></td><td>1500 Poke</td><td>3 Keys</td></tr>
 </table>
 
 <h3>Winning Conditions</h3>
+
+In Jellicent, there are two winning conditions. Fulfill either one to win.
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
 <tr><td><b></b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
@@ -41,10 +45,10 @@ body {
 
 <h3>Rounds</h3>
 
-In each round, players take turns to roll two 6-sided dices. If a player rolled doubles, where both dice showed the same number, they get to roll dices again.
+In each round, players take turns to roll two 6-sided dices. Add up the two numbers rolled, and that's the amount of steps you will travel across the board.
 
-If a player lands on a unowned property, they can choose to buy it or pass. 
-In Jellicent, passing a property results in an auction.
+<br>If a player rolled doubles, where both dice showed the same number, they get to roll dices again.
+<br>If a player lands on a unowned property, they can choose to buy it or pass. 
 
 
 
