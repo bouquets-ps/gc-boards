@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html data-theme="light">
 <head>
-<title>PS! Game Corner Jellicent's and Klefki's Boards - About</title>
+<title>PS! Game Corner Jellicent's and Klefki's Rulebook - Basics</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <style>
 body {
@@ -12,7 +12,7 @@ body {
 </head>
 <body style="background-color: black; color: white">
 <center>
-<h1><table><tr><td>PS! Game Corner Jellicent's and Klefki's Boards</td></tr></table></h1>
+<h1><table><tr><td>PS! Game Corner Jellicent's and Klefki's Rulebook</td></tr></table></h1>
 <h3><span style="letter-spacing:5px;"><table><tr>
 <td>BASICS</td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/boards">BOARDS</a></td>
@@ -23,6 +23,23 @@ body {
 
 <hr><br>
 <center>
+
+<h3>Starting Possesions</h3>
+Every player starts the game with 1500 Poke (Jellicent) or 3 keys (Klefki).
+
+<h3>Objectives</h3>
+
+
+
+<table align="center" border="2" style="text-align: center" cellpadding="5">
+<tr><td><b></b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
+<tr><td rowspan="2"><b>Winning Conditions</b></td><td colspan="2">Be the last player remaining</td></tr>
+<tr><td>Have 4000 Poke</td><td></td></tr>
+</table>
+
+ 
+
+
 
 In the <a style="text-decoration:none; color: silver" href="https://play.pokemonshowdown.com/gamecorner">PS! Game Corner</a> chat room, there are two Tabletop games that share similarities with Monopoly. With 36 tiles on each of the two available boards, it may take a while to remember where exactly each property is located. 
 
