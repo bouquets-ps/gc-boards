@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html data-theme="light">
 <head>
-<title>PS! Game Corner Jellicent's and Klefki's Rulebook - Actions</title>
+<title>PS! Game Corner Jellicent's and Klefki's Boards - Actions</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <style>
 td {
@@ -15,12 +15,12 @@ body {
 </head>
 <body style="background-color: black; color: white">
 <center>
-<h1><table><tr><td>PS! Game Corner Jellicent's and Klefki's Rulebook</td></tr></table></h1>
+<h1><table><tr><td>PS! Game Corner Jellicent's and Klefki's Boards</td></tr></table></h1>
 <h3><span style="letter-spacing:5px;"><table><tr>
-<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-rulebook/blob/main/basics">BASICS</a></td>
-<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-rulebook/blob/main/boards-square">BOARDS</a></td>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/square">SQUARE</a></td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/loop">LOOP</a></td>
 <td style="width: 50px"></td><td>ACTIONS</td>
-<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-rulebook/blob/main/jail">JAIL</a></td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/jail">JAIL</a></td>
 </tr></table></span></h3>
 </center>
 
@@ -28,8 +28,6 @@ body {
 <center>
 
 <h3>Actions</h3>
-
-Landing on Action triggers a random event.<br><br>
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Event</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
