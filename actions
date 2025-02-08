@@ -34,10 +34,10 @@ body {
 <tr><td>Slipping on an Inkay</td><td colspan="2">Go back 1 to 3 spaces</td></tr>
 <tr><td>Teleporting with Abra</td><td colspan="2">Teleport to a random tile</td></tr>
 <tr><td>Hopping on a Flying Taxi</td><td colspan="2">Teleport to Oak's Lab / Elm's Lab</td></tr>
+<tr><td>Hiking</td><td colspan="2">Teleport to the nearest mountain<br><i>Can trigger Oak's Lab / Elm's Lab's effect</i></td></tr>
 <tr><td>Hacking Lady Monita</td><td colspan="2">Teleport to and enter Pyrite Town Jail</td></tr>
 <tr><td>Drawing a card</td><td>Earn a Jellicent Card</td><td>Earn a Klefki Card</td></tr>
 <tr><td>Receiving a Present from Delibird</td><td>Earn 0 to 500 Poke</td><td>Earn 0 to 1 Key</td></tr>
 <tr><td>Winning a raffle</td><td>Earn Poke</td><td>Earn 1 Key</td></tr>
 <tr><td>Feeling generous</td><td>Donate 100 to 500 Poke to a random player<br><i>Only if you have enough Poke</i></td><td>N/A</td></tr>
-<tr><td>Hiking</td><td colspan="2">Teleport to the nearest mountain<br><i>Can trigger Oak's Lab / Elm's Lab's effect</i></td></tr>
 </table>
