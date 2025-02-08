@@ -27,8 +27,8 @@ body {
 <h3>Starting Possesions</h3>
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Starting Possessions</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
-<tr><td>1500 Poke</td><td>3 Keys</td></tr>
+<tr><td></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
+<tr><td><b>Starting Possessions</b></td><td>1500 Poke</td><td>3 Keys</td></tr>
 </table>
 
 <h3>Winning Conditions</h3>
