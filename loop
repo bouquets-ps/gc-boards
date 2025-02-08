@@ -67,7 +67,7 @@ body {
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Tile</b></td><td><b>Name</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
-<tr><td style="background: linear-gradient(#e6e6e6 , #d9d9d9); color: black; font-weight: bold">0</td><td>Elm's Lab</td><td>+200 Poke if passed by</td><td>+1 Key if passed by</td></tr>
+<tr><td style="background: linear-gradient(#e6e6e6 , #d9d9d9); color: black; font-weight: bold">0</td><td>Elm's Lab</td><td>Starting from round 2, +200 Poke if passed by</td><td>Starting from round 2, +1 Key if passed by</td></tr>
 <tr><td style="background: linear-gradient(#70a6db , #2e73b8); color: black; font-weight: bold" rowspan="2">9</td><td>Poke Mart</td><td>Random rent between 100 to 700 Poke</td><td>N/A</td></tr>
 <tr><td>Victory Road</td><td>N/A</td><td>Random elimination chance between 1% to 35%</td></tr>
 <tr><td style="background: linear-gradient(#70a6db , #2e73b8); color: black; font-weight: bold">18</td><td>Pokemon Center</td><td colspan="2">Nothing happens here</td></tr>
