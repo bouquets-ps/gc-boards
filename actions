@@ -38,10 +38,7 @@ body {
 <tr><td>Receivong a Present from Delibird</td><td>Earn 0 to 500 Poke</td><td>Earn 0 to 1 Key</td></tr>
 <tr><td>Winning a raffle</td><td>Earn Poke</td><td>Earn 1 Key</td></tr>
 <tr><td>Feeling generous</td><td>Donate 100 to 500 Poke to a random player<br><i>Only if you have enough Poke</i></td><td>N/A</td></tr>
-</table>
-
-<table align="center" border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Event</b></td><td><b>Square</b></td><td><b>Loop</b></td></tr>
-<tr><td>Hopping on a Flying Taxi</td><td>Teleport to Oak's Lab</td><td>Teleport to Elm's Lab</td></tr>
-<tr><td>Hiking</td><td>Move to the nearest Dark-Brown tile in clockwise direction<br><i>Can trigger Oak's Lab's effect</i></td><td>Move to the nearest Dark-Brown tile in anticlockwise direction<br><i>Can trigger Elm's Lab's effect</i></td></tr>
+<tr><td rowspan="2">Hopping on a Flying Taxi</td><td colspan="2">Teleport to Oak's Lab<br><i>Square Board</i></td></tr>
+<tr><td colspan="2">Teleport to Elm's Lab<br><i>Loop Board</i></td></tr>
+<tr><td>Hiking</td><td colspan="2">Teleport to the nearest mountain<br><i>Can trigger Oak's Lab / Elm's Lab's effect</i></td></tr>
 </table>
