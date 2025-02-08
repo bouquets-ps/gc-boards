@@ -32,15 +32,18 @@ body {
 Landing on Action triggers a random event.<br><br>
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
-<tr><td rowspan="2"><b>Event</b></td><td colspan="2"><b>Jellicent</b></td><td colspan="2"><b>Klefki</b></td></tr>
-<tr><td><b>Square</b></td><td><b>Loop</b></td><td><b>Square</b></td><td><b>Loop</b></td></tr>
-<tr><td>Slipping on an Inkay</td><td colspan="4">Go back 1 to 3 spaces</td></tr>
-<tr><td>Abra appears</td><td colspan="4">Teleport to a random tile</td></tr>
-<tr><td>Hopping on a Flying Taxi</td><td>Teleport to Oak's Lab</td><td>Teleport to Elm's Lab</td><td>Teleport to Oak's Lab</td><td>Teleport to Elm's Lab</td></tr>
-<tr><td>Hacking Lady Monita</td><td colspan="4">Teleport to and enter Pyrite Town Jail</td></tr>
-<tr><td>Hiking</td><td>Move to the nearest Dark-Brown tile in clockwise direction, triggers Oak's Lab's effect if applicable</td><td>Move to the nearest Dark-Brown tile in anticlockwise direction, triggers Elm's Lab's effect if applicable</td><td>Move to the nearest Dark-Brown tile in clockwise direction, triggers Oak's Lab's effect if applicable</td><td>Move to the nearest Dark-Brown tile in anticlockwise direction, triggers Elm's Lab's effect if applicable</td></tr>
-<tr><td>Drawing a card</td><td colspan="2">Earn a Jellicent card</td><td colspan="2">Earn a Klefki card</td></tr>
-<tr><td>Delibird's present</td><td colspan="2">Earn 0 to 500 Poke</td><td colspan="2">Earn 0 to 1 key</td></tr>
-<tr><td>Winning the raffle</td><td colspan="2"></td><td colspan="2">Earn 1 key</td></tr>
-<tr><td>Feeling generous</td><td colspan="2">Donate 100 to 500 Poke to a random player, but only if you have enough Poke</td><td colspan="2">N/A</td></tr>
+<tr><td><b>Event</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
+<tr><td>Slipping on an Inkay</td><td colspan="2">Go back 1 to 3 spaces</td></tr>
+<tr><td>Abra appears</td><td colspan="2">Teleport to a random tile</td></tr>
+<tr><td>Hacking Lady Monita</td><td colspan="2">Teleport to and enter Pyrite Town Jail</td></tr>
+<tr><td>Drawing a card</td><td>Earn a Jellicent card</td><td>Earn a Klefki card</td></tr>
+<tr><td>Delibird's present</td><td>Earn 0 to 500 Poke</td><td>Earn 0 to 1 key</td></tr>
+<tr><td>Winning the raffle</td><td></td><td>Earn 1 key</td></tr>
+<tr><td>Feeling generous</td><td>Donate 100 to 500 Poke to a random player, but only if you have enough Poke</td><td>N/A</td></tr>
+</table>
+
+<table align="center" border="2" style="text-align: center" cellpadding="5">
+<tr><td><b>Event</b></td><td><b>Square</b></td><td><b>Loop</b></td></tr>
+<tr><td>Hopping on a Flying Taxi</td><td>Teleport to Oak's Lab</td><td>Teleport to Elm's Lab</td></tr>
+<tr><td>Hiking</td><td>Move to the nearest Dark-Brown tile in clockwise direction, triggers Oak's Lab's effect if applicable</td><td>Move to the nearest Dark-Brown tile in anticlockwise direction, triggers Elm's Lab's effect if applicable</td></tr>
 </table>
