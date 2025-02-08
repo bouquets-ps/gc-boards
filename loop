@@ -35,7 +35,7 @@ body {
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
 <tr><td rowspan="2"><b>Tile</b></td><td rowspan="2"><b>Name</b></td><td rowspan="2"><b>Set</b></td><td colspan="2"><b>Jellicent</b></td><td colspan="2"><b>Klefki</b></td></tr>
-<tr><td><b>Buy Cost</b></td><td><b>Base Rent</b></td><td><b>Buy Cost</b></td><td><b>Base Elimination Chance</b></td></tr>
+<tr><td><b>Buy Cost</b></td><td><b>Base Rent</b></td><td><b>Unlock Cost</b></td><td><b>Base Elimination Chance</b></td></tr>
 <tr><td style="background: linear-gradient(#db8b70 , #b8502e); color: black; font-weight: bold">1</td><td>Ultra Crater</td><td rowspan="2">Red-Orange</td><td rowspan="2" colspan="2">500 Poke</td><td rowspan="24">1 Key</td><td rowspan="2">35%</td></tr>
 <tr><td style="background: linear-gradient(#db8b70 , #b8502e); color: black; font-weight: bold">2</td><td>Megalo Tower</td></tr>
 <tr><td style="background: linear-gradient(#dba670 , #b8732e); color: black; font-weight: bold">5</td><td>Hammerlocke</td><td rowspan="3">Orange</td><td rowspan="3" colspan="2">400 Poke</td><td rowspan="3">30%</td></tr>
