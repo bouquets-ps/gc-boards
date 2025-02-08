@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html data-theme="light">
 <head>
-<title>PS! Game Corner Jellicent's and Klefki's Rulebook - Boards - Loop</title>
+<title>PS! Game Corner Jellicent's and Klefki's Boards - Loop</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <style>
 td {
@@ -15,35 +15,23 @@ body {
 </head>
 <body style="background-color: black; color: white">
 <center>
-<h1><table><tr><td>PS! Game Corner Jellicent's and Klefki's Rulebook</td></tr></table></h1>
+<h1><table><tr><td>PS! Game Corner Jellicent's and Klefki's Boards</td></tr></table></h1>
 <h3><span style="letter-spacing:5px;"><table><tr>
-<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-rulebook/blob/main/basics">BASICS</a></td>
-<td style="width: 50px"></td><td>BOARDS</td>
-<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-rulebook/blob/main/actions">ACTIONS</a></td>
-<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-rulebook/blob/main/jail">JAIL</a></td>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/square">SQUARE</a></td>
+<td style="width: 50px"></td><td>LOOP</td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/actions">ACTIONS</a></td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/jail">JAIL</a></td>
 </tr></table></span></h3>
 </center>
 
 <hr><br>
 <center>
 
-<h3><span style="letter-spacing:5px;"><table><tr>
-</td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-rulebook/blob/main/boards-square">SQUARE</a></td>
-<td style="width: 50px"><td>LOOP</td>
-</tr></table></span></h3>
-
-<br>
-
 <h3>Board</h3>
-
-Every player starts the game at tile 0 and moves anticlockwise.<br><br>
 
 <div class="chat uhtml-scriptedklefkislockedlocations10board chatmessage-ladymonita"><div class="infobox"><table align="center" border="2" style="color: black ; font-weight: bold ; text-align: center ; table-layout: fixed ; width: 300px"><tbody><tr style="height: 25px"><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#a670db , #732eb8)">25</td><td style="background: linear-gradient(#ec93ec , #e052e0)">24</td><td style="background: linear-gradient(#a670db , #732eb8)">23</td><td style="background: linear-gradient(#995c33 , #603920)">22</td><td style="background: linear-gradient(#ec93ec , #e052e0)">21</td><td style="background: linear-gradient(#7070db , #2e2eb8)">20</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr style="height: 25px"><td>&nbsp;</td><td style="background: linear-gradient(#999999 , #666666)">27</td><td style="background: linear-gradient(#a670db , #732eb8)">26</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#7070db , #2e2eb8)">19</td><td style="background: linear-gradient(#70a6db , #2e73b8)">18</td><td>&nbsp;</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#db70a6 , #b82e73)">29</td><td style="background: linear-gradient(#db70a6 , #b82e73)">28</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#70db70 , #2eb82e)">17</td><td style="background: linear-gradient(#70db70 , #2eb82e)">16</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#ec93ec , #e052e0)">30</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#ec93ec , #e052e0)">15</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#995c33 , #603920)">31</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#70db70 , #2eb82e)">14</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#db7070 , #b82e2e)">32</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#995c33 , #603920)">13</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#ec93ec , #e052e0)">33</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#ec93ec , #e052e0)">12</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#db7070 , #b82e2e)">34</td><td style="background: linear-gradient(#db7070 , #b82e2e)">35</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#dbdb70 , #b8b72e)">10</td><td style="background: linear-gradient(#dbdb70 , #b8b72e)">11</td></tr><tr style="height: 25px"><td>&nbsp;</td><td style="background: linear-gradient(#e6e6e6 , #d9d9d9)">0</td><td style="background: linear-gradient(#db8b70 , #b8502e)">1</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#dba670 , #b8732e)">8</td><td style="background: linear-gradient(#70a6db , #2e73b8)">9</td><td>&nbsp;</td></tr><tr style="height: 25px"><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#db8b70 , #b8502e)">2</td><td style="background: linear-gradient(#ec93ec , #e052e0)">3</td><td style="background: linear-gradient(#995c33 , #603920)">4</td><td style="background: linear-gradient(#dba670 , #b8732e)">5</td><td style="background: linear-gradient(#ec93ec , #e052e0)">6</td><td style="background: linear-gradient(#dba670 , #b8732e)">7</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table></div></div>
 
 <h3>Properties</h3>
-
-Rent and elimination chance of properties in the same set stacks together.
-<br><br>For instance, if you land on Ultra Crater, and the player who owns it has all two properties in the Red-Orange set, you have to pay 1000 Poke to them in Jellicent's, or have a 70% chance to be eliminated in Klefki's.<br><br>
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
 <tr><td rowspan="2"><b>Tile</b></td><td rowspan="2"><b>Name</b></td><td rowspan="2"><b>Set</b></td><td colspan="2"><b>Jellicent</b></td><td colspan="2"><b>Klefki</b></td></tr>
