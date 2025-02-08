@@ -94,32 +94,3 @@ Rent and elimination chance of properties in the same set stacks together.
 <tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">33</td></tr>
 </table>
 
-<h3>Actions</h3>
-
-Landing on Action triggers a random event.<br><br>
-
-<table align="center" border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Event</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
-<tr><td>Slipping on an Inkay</td><td colspan="2">Go back 1 to 3 spaces</td></tr>
-<tr><td>Abra appears</td><td colspan="2">Teleport to a random tile</td></tr>
-<tr><td>Hopping on a Flying Taxi</td><td colspan="2">Teleport to Oak's Lab</td></tr>
-<tr><td>Hacking Lady Monita</td><td colspan="2">Teleport to and enter Pyrite Town Jail</td></tr>
-<tr><td>Hiking</td><td colspan="2">Move to the nearest Dark-Brown tile in clockwise direction, triggers Oak's Lab's effect if applicable</td></tr>
-<tr><td>Drawing a card</td><td>Earn a Jellicent card</td><td>Earn a Klefki card</td></tr>
-<tr><td>Delibird's present</td><td>Earn 0 to 500 Poke</td><td>Earn 0 to 1 key</td></tr>
-<tr><td>Winning the raffle</td><td></td><td>Earn 1 key</td></tr>
-<tr><td>Feeling generous</td><td>Donate 100 to 500 Poke to a random player, but only if you have enough Poke</td><td>N/A</td></tr>
-</table>
-
-<h3>Jail</h3>
-
-Landing on Pyrite Town Jail by rolling dices does nothing.
-
-<br><br>The only way to enter Pyrite Town Jail is by triggering the Hacking Lady Monita Action event.<br><br>
-
-<table align="center" border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Rounds in Jail</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
-<tr><td>First three rounds</td><td>Choose to escape by using 100 Poke or a Jellicent card, or roll dices.</td><td>Choose to escape by using 1 key or a Klefki card, or roll dices.</td></tr>
-<tr><td>The fourth round</td><td>Forced to use 100 Poke or a Jellicent card to escape. Eliminated if you have neither.</td><td>Forced to use 1 key or a Klefki card to escape. Eliminated if you have neither.</td></tr>
-</table>
-
