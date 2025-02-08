@@ -67,12 +67,12 @@ body {
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Tile</b></td><td><b>Name</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
-<tr><td style="background: linear-gradient(#e6e6e6 , #d9d9d9); color: black; font-weight: bold">0</td><td>Oak's Lab</td><td>From round 2 onwards, +200 Poke if passed by</td><td>From round 2 onwards, +1 Key if passed by</td></tr>
-<tr><td style="background: linear-gradient(#999999 , #666666); color: black; font-weight: bold">9</td><td>Pyrite Town Jail</td><td colspan="2">Can be entered by triggering the Hacking Lady Monita Action event<br>See <a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/jail">Jail</a></td></tr>
+<tr><td style="background: linear-gradient(#e6e6e6 , #d9d9d9); color: black; font-weight: bold">0</td><td>Oak's Lab</td><td>+200 Poke if passed by<br><i>Only from round 2 onwards</i></td><td>+1 Key if passed by<br><br><i>Only from round 2 onwards</i></td></tr>
+<tr><td style="background: linear-gradient(#999999 , #666666); color: black; font-weight: bold">9</td><td>Pyrite Town Jail</td><td colspan="2">Can be entered by triggering the Hacking Lady Monita Action event<br><i>See <a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/jail">Jail</a></i></td></tr>
 <tr><td style="background: linear-gradient(#70a6db , #2e73b8); color: black; font-weight: bold">18</td><td>Pokemon Center</td><td colspan="2">Nothing happens here</td></tr>
 <tr><td style="background: linear-gradient(#70a6db , #2e73b8); color: black; font-weight: bold" rowspan="2">27</td><td>Poke Mart</td><td>Random rent between 100 to 700 Poke</td><td>N/A</td></tr>
 <tr><td>Victory Road</td><td>N/A</td><td>Random elimination chance between 1% to 35%</td></tr>
-<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">3</td><td rowspan="8">Action</td><td rowspan="8" colspan="2" align="center">Triggers a random event<br>See <a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/actions">Actions</a></td></tr>
+<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">3</td><td rowspan="8">Action</td><td rowspan="8" colspan="2" align="center">Triggers a random event<br><i>See <a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/actions">Actions</a></i></td></tr>
 <tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">6</td></tr>
 <tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">12</td></tr>
 <tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">15</td></tr>
