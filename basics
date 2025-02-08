@@ -25,11 +25,13 @@ body {
 <center>
 
 <h3>Starting Possesions</h3>
-Every player starts the game with 1500 Poke (Jellicent) or 3 keys (Klefki).
 
-<h3>Objectives</h3>
+<table align="center" border="2" style="text-align: center" cellpadding="5">
+<tr><td><b></b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
+<tr><td>1500 Poke</td><td>3 Keys</td></tr>
+</table>
 
-
+<h3>Winning Conditions</h3>
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
 <tr><td><b></b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
@@ -41,7 +43,7 @@ Every player starts the game with 1500 Poke (Jellicent) or 3 keys (Klefki).
 
 
 
-In the <a style="text-decoration:none; color: silver" href="https://play.pokemonshowdown.com/gamecorner">PS! Game Corner</a> chat room, there are two Tabletop games that share similarities with Monopoly. With 36 tiles on each of the two available boards, it may take a while to remember where exactly each property is located. 
+<br><br>In the <a style="text-decoration:none; color: silver" href="https://play.pokemonshowdown.com/gamecorner">PS! Game Corner</a> chat room, there are two Tabletop games that share similarities with Monopoly. With 36 tiles on each of the two available boards, it may take a while to remember where exactly each property is located. 
 
 <br><br>Worry not, there is an online resource that documents exactly that!
 
