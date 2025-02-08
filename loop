@@ -34,7 +34,7 @@ body {
 <h3>Properties</h3>
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
-<tr><td rowspan="2"><b>Tile</b></td><td rowspan="2"><b>Name</b></td><td rowspan="2"><b>Set</b></td><td colspan="2"><b>Jellicent</b></td><td colspan="2"><b>Klefki</b></td></tr>
+<tr><td rowspan="2"><b>Space</b></td><td rowspan="2"><b>Name</b></td><td rowspan="2"><b>Set</b></td><td colspan="2"><b>Jellicent</b></td><td colspan="2"><b>Klefki</b></td></tr>
 <tr><td><b>Buy Cost</b></td><td><b>Base Rent</b></td><td><b>Unlock Cost</b></td><td><b>Base Elimination Chance</b></td></tr>
 <tr><td style="background: linear-gradient(#db8b70 , #b8502e); color: black; font-weight: bold">1</td><td>Ultra Crater</td><td rowspan="2">Red-Orange</td><td rowspan="2" colspan="2">500 Poke</td><td rowspan="24">1 Key</td><td rowspan="2">35%</td></tr>
 <tr><td style="background: linear-gradient(#db8b70 , #b8502e); color: black; font-weight: bold">2</td><td>Megalo Tower</td></tr>
@@ -63,10 +63,10 @@ body {
 
 </table>
 
-<h3>Special Tiles</h3>
+<h3>Special Spaces</h3>
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Tile</b></td><td><b>Name</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
+<tr><td><b>Space</b></td><td><b>Name</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
 <tr><td style="background: linear-gradient(#e6e6e6 , #d9d9d9); color: black; font-weight: bold">0</td><td>Elm's Lab</td><td>+200 Poke if passed by<br><i>Only from round 2 onwards</i></td><td>+1 Key if passed by<br><i>Only from round 2 onwards</i></td></tr>
 <tr><td style="background: linear-gradient(#70a6db , #2e73b8); color: black; font-weight: bold" rowspan="2">9</td><td>Poke Mart</td><td>Random rent between 100 to 700 Poke</td><td>N/A</td></tr>
 <tr><td>Victory Road</td><td>N/A</td><td>Random elimination chance between 1% to 35%</td></tr>
