@@ -72,7 +72,7 @@ body {
 <tr><td>Victory Road</td><td>N/A</td><td>Random elimination chance between 1% to 35%</td></tr>
 <tr><td style="background: linear-gradient(#70a6db , #2e73b8); color: black; font-weight: bold">18</td><td>Pokemon Center</td><td colspan="2">Nothing happens here</td></tr>
 <tr><td style="background: linear-gradient(#999999 , #666666); color: black; font-weight: bold">27</td><td>Pyrite Town Jail</td><td colspan="2">Can be entered by triggering the Hacking Lady Monita Action event<br><i>See <a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/jail">Jail</a></i></td></tr>
-<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">3</td><td rowspan="8">Action</td><td rowspan="8" colspan="2" align="center">Triggers a random event<br><i>See <a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/actions">Actions</a></i></td></tr>
+<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">3</td><td rowspan="8">Action</td><td rowspan="8" colspan="2" align="center">Trigger a random event<br><i>See <a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/actions">Actions</a></i></td></tr>
 <tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">6</td></tr>
 <tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">12</td></tr>
 <tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">15</td></tr>
