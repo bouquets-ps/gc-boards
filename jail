@@ -31,8 +31,8 @@ body {
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Rounds in Jail</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
-<tr><td>First three rounds</td><td>Use a Jellicent Card or 100 Poke to escape<br>Attempt to roll doubles to escape<br><i>Pick one</i></td><td>Use a Klefki Card or 1 Key to escape<br>Attempt to roll doubles to escape<br><i>Pick one</i></td></tr>
-<tr><td>The fourth round</td><td>Forced to use a Jellicent Card or 100 Poke to escape<br><i>Eliminated if you have neither</i></td><td>Forced to use a Klefki Card or 1 Key to escape<br><i>Eliminated if you have neither</i></td></tr>
+<tr><td>1 to 3</td><td>Use a Jellicent Card or 100 Poke to escape<br>Attempt to roll doubles to escape<br><i>Pick one</i></td><td>Use a Klefki Card or 1 Key to escape<br>Attempt to roll doubles to escape<br><i>Pick one</i></td></tr>
+<tr><td>4</td><td>Forced to use a Jellicent Card or 100 Poke to escape<br><i>Eliminated if you have neither</i></td><td>Forced to use a Klefki Card or 1 Key to escape<br><i>Eliminated if you have neither</i></td></tr>
 </table>
 
 
