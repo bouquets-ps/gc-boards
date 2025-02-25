@@ -63,6 +63,7 @@ Ivysaur
 </p></div>
 
 <button type="button" class="collapsible">
+<table cellpadding="5">
 <tr><td width="50px">
 <span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -0px"></span>
 </td><td width="50px">
@@ -77,10 +78,13 @@ Bulbasaur
 <div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Green</b></div>
 </td><td width="100px">
 100 matches
+</table>
 </button>
 <div class="content"><p>
 Ivysaur
 </p></div>
+
+2
 
 
 <script>
