@@ -55,13 +55,13 @@ body {
 
 <button type="button" class="collapsible">
 
-<div class="infobox" style="width: 100px">
+<div class="infobox" style="width: 150px">
 <font color="a2bffe"><b>
 100 matches
 </b></font>
 </div>
 
-<div class="infobox" style="width: 250px">
+<div class="infobox" style="width: 200px">
 <span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -0px"></span>
 <br><b>#0001 Bulbasaur</b></div>
 
