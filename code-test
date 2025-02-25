@@ -65,7 +65,9 @@ Ivysaur
 <table cellpadding="5">
 <tr><td width="40px">
 <span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -0px"></span>
-</td><td width="40px"><h4>
+</td><td width="100px"><h4>
+100 matches
+</h4></td><td width="40px"><h4>
 #0001
 </h4></td><td width="100px"><h4>
 Bulbasaur
@@ -77,11 +79,9 @@ Bulbasaur
 <div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Poison</b></div>
 </td><td width="7px">
 &nbsp;|&nbsp;
-</td><td width="80px">
+</td><td width="70px">
 <div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Green</b></div>
-</td><td width="100px"><h4>
-100 matches
-</h4></table>
+</td></tr></table>
 </button>
 <div class="content"><p>
 Ivysaur
