@@ -69,13 +69,13 @@ Ivysaur
 #0001
 </h4></td><td width="100px"><h4>
 Bulbasaur
-</h4></td><td width="80px">
+</h4></td><td width="70px">
 <div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Grass</b></div>
-</td><td width="10px">
+</td><td width="7px">
 &nbsp;/&nbsp;
-</td><td width="80px">
+</td><td width="70px">
 <div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Poison</b></div>
-</td><td width="10px">
+</td><td width="7px">
 &nbsp;|&nbsp;
 </td><td width="80px">
 <div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Green</b></div>
@@ -87,7 +87,7 @@ Bulbasaur
 Ivysaur
 </p></div>
 
-3
+4
 
 
 <script>
