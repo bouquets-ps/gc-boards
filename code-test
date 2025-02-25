@@ -29,7 +29,7 @@ td {
   vertical-align: middle;
 }
 div {
-  border: 1px solid #68a;
+  border: 0px solid #68a;
   border-radius: 5px;
   padding: 1px;
   display: inline-block;
@@ -55,13 +55,13 @@ body {
 <center>
 
 <button type="button" class="collapsible">
-<div class="infobox" style="width: 150px"><b>
+<div class="infobox" style="width: 250px"><b>
 <span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -0px"></span><br>
 Bulbasaur
 </b><br><font color="a2bffe"><b>
 100 matches
 </b></font></div>
-<div class="infobox" style="width: 200px">
+<div class="infobox" style="width: 250px">
 <div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Grass</b></div>
 &nbsp;/&nbsp;
 <div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Poison</b></div>
