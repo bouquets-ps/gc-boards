@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <style>
 .collapsible {
-  background-color: #444444;
+  background-color: #222222;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -23,7 +23,7 @@
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #222222;
+  background-color: #111111;
   font-size: 10px;
 }
 td {
