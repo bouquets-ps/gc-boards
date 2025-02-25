@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <style>
 .collapsible {
-  background-color: #777;
+  background-color: #111111;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -13,7 +13,7 @@
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 10px;
 }
 .active, .collapsible:hover {
   background-color: #555;
@@ -47,12 +47,10 @@ body {
 <hr><br>
 <center>
 
-<p>A Collapsible:</p>
 <button type="button" class="collapsible">Open Collapsible</button>
 <div class="content">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
-<p>A Collapsible:</p>
 <button type="button" class="collapsible">Open Collapsible</button>
 <div class="content">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
