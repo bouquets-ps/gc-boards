@@ -11,7 +11,7 @@
   padding: 18px;
   width: 100%;
   border: none;
-  text-align: left;
+  text-align: center;
   outline: none;
   font-size: 15px;
   font-family: "Quicksand", sans-serif;
@@ -53,15 +53,17 @@ body {
 <center>
 
 <button type="button" class="collapsible">
-<table>
-<tr><td width="150px">
-<h4><font color="a2bffe">
+
+<div class="infobox" style="width: 100px">
+<font color="a2bffe">
 100 matches
-</font></h4></td>
+</font>
+</div>
+
 <div class="infobox" style="width: 250px">
 <span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -0px"></span>
 <br><b>Bulbasaur</b><br><i>#0001</i></div>
-</td><td>
+
 <div class="infobox" style="width: 250px">
 <div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Grass</b></div>
 &nbsp;/&nbsp;
@@ -69,7 +71,7 @@ body {
 <br>
 <div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Green</b></div>
 </div>
-</td></tr></table>
+
 </button>
 <div class="content"><p>
 Ivysaur
