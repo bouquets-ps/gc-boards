@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <style>
 .collapsible {
-  background-color: #666666;
+  background-color: #444444;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -13,16 +13,16 @@
   border: none;
   text-align: left;
   outline: none;
-  font-size: 10px;
 }
 .active, .collapsible:hover {
-  background-color: #444444;
+  background-color: #333333;
 }
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
   background-color: #222222;
+  font-size: 10px;
 }
 td {
   vertical-align: middle;
@@ -47,7 +47,14 @@ body {
 <center>
 
 <button type="button" class="collapsible">
-<span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -0px"></span>#0001 Bulbasaur
+<span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -0px"></span>
+#0001 - Bulbasaur
+<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Grass</b></div>
+&nbsp;/&nbsp;
+<div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Poison</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Green</b></div>
+</div>
 </button>
 <div class="content"><p>
 Ivysaur
