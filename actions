@@ -101,7 +101,7 @@ button {
 
 <br><br>
 
-<table width="900px" align="center" border="2" style="text-align: center" cellpadding="5">
+<table width="950px" align="center" border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Event</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
 <tr><td>Slipping on an Inkay</td><td colspan="2">Go back 1 to 3 spaces</td></tr>
 <tr><td>Teleporting with Abra</td><td colspan="2">Teleport to a random space</td></tr>
