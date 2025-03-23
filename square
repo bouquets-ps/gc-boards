@@ -3,6 +3,48 @@
 <head>
 <title>PS! Game Corner Jellicent and Klefki's Boards - Square</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<script>
+function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
+  if (localStorageTheme !== null) {
+    return localStorageTheme;
+  }
+
+  if (systemSettingDark.matches) {
+    return "dark";
+  }
+
+  return "light";
+}
+
+function updateButton({ buttonEl, isDark }) {
+  const newCta = isDark ? "Light" : "Dark";
+buttonEl.setAttribute("aria-label", newCta);
+  buttonEl.innerText = newCta;
+}
+
+function updateThemeOnHtmlEl({ theme }) {
+  document.querySelector("html").setAttribute("data-theme", theme);
+}
+
+const button = document.querySelector("[data-theme-toggle]");
+const localStorageTheme = localStorage.getItem("theme");
+const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
+
+updateButton({ buttonEl: button, isDark: currentThemeSetting === "dark" });
+updateThemeOnHtmlEl({ theme: currentThemeSetting });
+
+button.addEventListener("click", (event) => {
+  const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
+
+  localStorage.setItem("theme", newTheme);
+  updateButton({ buttonEl: button, isDark: newTheme === "dark" });
+  updateThemeOnHtmlEl({ theme: newTheme });
+
+  currentThemeSetting = newTheme;
+});
+</script>
 <style>
 td {
   vertical-align: middle;
@@ -10,10 +52,34 @@ td {
 body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+[data-theme="light"] {
+   --color-bg: #ffffff;
+   --color-fg: #000000;
+   --transition-speed: 0.5s;
+}
+[data-theme="dark"] {
+   --color-bg: #000000;
+   --color-fg: #ffffff;
+   --transition-speed: 0.5s;
+}
+button {
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid var(--color-fg);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  transition: all var(--global-transition-time) ease-in-out;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+  margin-bottom: 24px;
 }
 </style>
 </head>
-<body style="background-color: black; color: white">
+<body>
 <center>
 <h1><table><tr><td>PS! Game Corner Jellicent and Klefki's Boards</td></tr></table></h1>
 <h3><span style="letter-spacing:5px;"><table><tr>
@@ -27,14 +93,20 @@ body {
 <hr><br>
 <center>
 
-<h3>Board</h3>
+<button
+    type="button"
+    data-theme-toggle
+    aria-label="Light"
+  >Light</button>
+
+<br><br>
 
 <div class="chat uhtml-scriptedklefkislockedlocations6board chatmessage-ladymonita"><div class="infobox"><table align="center" border="2" style="color: black ; font-weight: bold ; text-align: center ; table-layout: fixed ; width: 300px"><tbody><tr style="height: 25px"><td style="background: linear-gradient(#999999 , #666666)">9</td><td style="background: linear-gradient(#a670db , #732eb8)">10</td><td style="background: linear-gradient(#a670db , #732eb8)">11</td><td style="background: linear-gradient(#ec93ec , #e052e0)">12</td><td style="background: linear-gradient(#a670db , #732eb8)">13</td><td style="background: linear-gradient(#995c33 , #603920)">14</td><td style="background: linear-gradient(#ec93ec , #e052e0)">15</td><td style="background: linear-gradient(#7070db , #2e2eb8)">16</td><td style="background: linear-gradient(#7070db , #2e2eb8)">17</td><td style="background: linear-gradient(#70a6db , #2e73b8)">18</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#db70a6 , #b82e73)">8</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#70db70 , #2eb82e)">19</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#db70a6 , #b82e73)">7</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#70db70 , #2eb82e)">20</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#ec93ec , #e052e0)">6</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#ec93ec , #e052e0)">21</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#995c33 , #603920)">5</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#70db70 , #2eb82e)">22</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#db7070 , #b82e2e)">4</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#995c33 , #603920)">23</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#ec93ec , #e052e0)">3</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#ec93ec , #e052e0)">24</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#db7070 , #b82e2e)">2</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#dbdb70 , #b8b72e)">25</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#db7070 , #b82e2e)">1</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#dbdb70 , #b8b72e)">26</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#e6e6e6 , #d9d9d9)">0</td><td style="background: linear-gradient(#db8b70 , #b8502e)">35</td><td style="background: linear-gradient(#db8b70 , #b8502e)">34</td><td style="background: linear-gradient(#ec93ec , #e052e0)">33</td><td style="background: linear-gradient(#995c33 , #603920)">32</td><td style="background: linear-gradient(#dba670 , #b8732e)">31</td><td style="background: linear-gradient(#ec93ec , #e052e0)">30</td><td style="background: linear-gradient(#dba670 , #b8732e)">29</td><td style="background: linear-gradient(#dba670 , #b8732e)">28</td><td style="background: linear-gradient(#70a6db , #2e73b8)">27</td></tr></tbody></table></div></div>
 
-<h3>Properties</h3>
+<br><br>
 
-<table align="center" border="2" style="text-align: center" cellpadding="5">
-<tr><td rowspan="2"><b>Space</b></td><td rowspan="2"><b>Name</b></td><td rowspan="2"><b>Set</b></td><td colspan="2"><b>Jellicent</b></td><td colspan="2"><b>Klefki</b></td></tr>
+<table width="950px" align="center" border="2" style="text-align: center" cellpadding="5">
+<tr><td width="50px" rowspan="2"><b>Space</b></td><td width="150px" rowspan="2"><b>Name</b></td><td rowspan="2"><b>Set</b></td><td colspan="2"><b>Jellicent</b></td><td width="320px" colspan="2"><b>Klefki</b></td></tr>
 <tr><td><b>Buy Cost</b></td><td><b>Base Rent</b></td><td><b>Unlock Cost</b></td><td><b>Base Elimination Chance</b></td></tr>
 <tr><td style="background: linear-gradient(#db7070 , #b82e2e); color: black; font-weight: bold">1</td><td>Pallet</td><td rowspan="3">Red</td><td rowspan="3" colspan="2">100 Poke</td><td rowspan="24">1 Key</td><td rowspan="3">5%</td></tr>
 <tr><td style="background: linear-gradient(#db7070 , #b82e2e); color: black; font-weight: bold">2</td><td>Littleroot</td></tr>
@@ -60,13 +132,12 @@ body {
 <tr><td style="background: linear-gradient(#995c33 , #603920); color: black; font-weight: bold">14</td><td>Mt. Silver</td></tr>
 <tr><td style="background: linear-gradient(#995c33 , #603920); color: black; font-weight: bold">23</td><td>Mt. Pyre</td></tr>
 <tr><td style="background: linear-gradient(#995c33 , #603920); color: black; font-weight: bold">32</td><td>Mr. Coronet</td></tr>
-
 </table>
 
-<h3>Special Spaces</h3>
+<br><br>
 
-<table align="center" border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Space</b></td><td><b>Name</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
+<table width="950px" align="center" border="2" style="text-align: center" cellpadding="5">
+<tr><td width="50px"><b>Space</b></td><td width="150px"><b>Name</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
 <tr><td style="background: linear-gradient(#e6e6e6 , #d9d9d9); color: black; font-weight: bold">0</td><td>Oak's Lab</td><td>+200 Poke if pass by<br><i>Only from round 2 onwards</i></td><td>+1 Key if pass by<br><i>Only from round 2 onwards</i></td></tr>
 <tr><td style="background: linear-gradient(#999999 , #666666); color: black; font-weight: bold">9</td><td>Pyrite Town Jail</td><td colspan="2">Can be entered by triggering the Hacking Lady Monita Action event<br><i>See <a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/jail">Jail</a></i></td></tr>
 <tr><td style="background: linear-gradient(#70a6db , #2e73b8); color: black; font-weight: bold">18</td><td>Pokemon Center</td><td colspan="2">Nothing happens here</td></tr>
@@ -81,4 +152,3 @@ body {
 <tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">30</td></tr>
 <tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">33</td></tr>
 </table>
-
