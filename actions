@@ -3,6 +3,48 @@
 <head>
 <title>PS! Game Corner Jellicent and Klefki's Boards - Actions</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<script>
+function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
+  if (localStorageTheme !== null) {
+    return localStorageTheme;
+  }
+
+  if (systemSettingDark.matches) {
+    return "dark";
+  }
+
+  return "light";
+}
+
+function updateButton({ buttonEl, isDark }) {
+  const newCta = isDark ? "Light" : "Dark";
+buttonEl.setAttribute("aria-label", newCta);
+  buttonEl.innerText = newCta;
+}
+
+function updateThemeOnHtmlEl({ theme }) {
+  document.querySelector("html").setAttribute("data-theme", theme);
+}
+
+const button = document.querySelector("[data-theme-toggle]");
+const localStorageTheme = localStorage.getItem("theme");
+const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
+
+updateButton({ buttonEl: button, isDark: currentThemeSetting === "dark" });
+updateThemeOnHtmlEl({ theme: currentThemeSetting });
+
+button.addEventListener("click", (event) => {
+  const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
+
+  localStorage.setItem("theme", newTheme);
+  updateButton({ buttonEl: button, isDark: newTheme === "dark" });
+  updateThemeOnHtmlEl({ theme: newTheme });
+
+  currentThemeSetting = newTheme;
+});
+</script>
 <style>
 td {
   vertical-align: middle;
@@ -10,10 +52,34 @@ td {
 body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+[data-theme="light"] {
+   --color-bg: #ffffff;
+   --color-fg: #000000;
+   --transition-speed: 0.5s;
+}
+[data-theme="dark"] {
+   --color-bg: #000000;
+   --color-fg: #ffffff;
+   --transition-speed: 0.5s;
+}
+button {
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid var(--color-fg);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  transition: all var(--global-transition-time) ease-in-out;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+  margin-bottom: 24px;
 }
 </style>
 </head>
-<body style="background-color: black; color: white">
+<body>
 <center>
 <h1><table><tr><td>PS! Game Corner Jellicent and Klefki's Boards</td></tr></table></h1>
 <h3><span style="letter-spacing:5px;"><table><tr>
@@ -27,9 +93,15 @@ body {
 <hr><br>
 <center>
 
-<h3>Actions</h3>
+<button
+    type="button"
+    data-theme-toggle
+    aria-label="Light"
+  >Light</button>
 
-<table align="center" border="2" style="text-align: center" cellpadding="5">
+<br><br>
+
+<table width="900px" align="center" border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Event</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
 <tr><td>Slipping on an Inkay</td><td colspan="2">Go back 1 to 3 spaces</td></tr>
 <tr><td>Teleporting with Abra</td><td colspan="2">Teleport to a random space</td></tr>
